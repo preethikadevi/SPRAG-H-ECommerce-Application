@@ -77,10 +77,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "grocessary-management-front-end:build:production"
+              "browserTarget": "ecommerce-front-end:build:production"
             },
             "development": {
-              "browserTarget": "grocessary-management-front-end:build:development"
+              "browserTarget": "ecommerce-front-end:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -88,7 +88,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "grocessary-management-front-end:build"
+            "browserTarget": "ecommerce-front-end:build"
           }
         },
         "test": {
